@@ -1,0 +1,38 @@
+#nufus {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#nufus td,#nufus th{
+    border:1px solid rgb(136, 0, 0);
+    padding: 8px;
+}
+#nufus tr:nth-child(even){
+    background-color: rgb(255, 204, 204);
+}
+#nufus tr:hover{
+    background-color:whitesmoke ;
+    color: #dc3545;
+}
+#nufus th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#dc3545;
+    color:white
+}
+section{
+    width: auto;
+}
+.d-block{
+    width: 600px;
+}
+h2{
+    color:#dc3545;
+}
+strong{
+    color: #dc3545;
+}
+.text-danger{
+    text-decoration: none;
+}
