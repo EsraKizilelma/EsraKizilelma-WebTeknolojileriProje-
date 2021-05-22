@@ -1,0 +1,51 @@
+.bg-foto{
+    background-image: url(arkaplan.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position:center;
+    height: 500px;
+    width: 100%;
+    
+}
+span{
+    
+    position: absolute;
+    font-family:"Santral Bold";
+    left: 30%; 
+    right: 30%;
+    top: 40%;   
+    color: wheat;
+    font-size: 35px;
+}
+h1,h2,h3{
+    color:rgb(161, 89, 41);
+}
+.link:link{
+    color: rgb(136, 61, 12);
+    text-decoration: none;
+    font-size: large;
+}
+.link:visited{
+    color: rgb(138, 20, 20);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(16, 77, 42);
+    text-decoration: none;
+}
+section{
+    width: 75%;
+    margin: auto;
+    padding: 4px;
+}
+.brosur{
+   width: 80%;
+}
+.brosur-div{
+    float: left;
+    width: 25%;
+}
+.d-block{
+    margin: auto;
+}

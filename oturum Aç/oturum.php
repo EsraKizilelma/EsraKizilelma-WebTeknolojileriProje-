@@ -17,11 +17,19 @@
             <a href="../hakkımda/Hakkında.html" class="navbar-brand text-white"> 
                 <img src="../apple.png" width="50px" alt="Ana Sayfa"> Ana Sayfa
             </a>
-            <a href="Kayıt Ol.html" class="navbar-brand text-white"> Kayıt Ol
-                <img src="register.png" width="50px" alt="register icon">
+            <a href="oturumAc.html" class="navbar-brand text-white"> Oturum Aç
+                <img src="sign-in.png" width="50px" alt="sign-in icon">
             </a>   
           </div>
        </nav>
     </div>
+    <section class=" w-75 m-auto py-4">
+      <form action="dogrulama.php" method="POST">
+        <input type="text" value="" placeholder="Kullanıcı Adı" name="kullanıcıAdı">
+        <input type="text" value="" placeholder="Parola" name="Parola">
+        <input type="submit" value="Giriş Yap" >
+
+      </form>
+    </section> 
   </body>
 </html>
