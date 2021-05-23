@@ -1,5 +1,5 @@
 .bg-foto{
-    background-image: url(arkaplan.jpg);
+    background: url(arkaplan.jpg) no-repeat;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: white;

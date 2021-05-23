@@ -28,9 +28,59 @@ p{
     color: white;
     text-decoration: unset;
 }
-footer{
- position: relative;
+.bg{
+ position:relative;
  bottom: 0%;
  right: 0%;
  left: 0%;
+}
+#container{
+    width: 92%;
+    position: left;  
+}
+
+#other-posts{
+    width: 8%;
+    background-color:#ffc107;
+    float: right;
+    position: fixed;
+    right: 0%;
+    top: 12%;
+    bottom: 0%; 
+}
+
+.tags{
+    margin: 0%;
+    padding: 0%;
+}
+.tags li{
+    list-style: none;
+    display: inline-block;
+    /*lilerin içi yanyana*/
+    margin-right: 5px;
+}
+.tags li a{
+    text-decoration: none;/*linkşn altıdaki çizgi gider*/
+
+}
+.icon{
+    width: 70%;
+    padding-left: 20%;
+}
+#özgeçmiş{
+    width: 100%;
+    height: 1000px;
+    
+}
+.foto{
+    width: 100%;
+}
+.ft{
+    display: inline-block;
+    width: 32%;
+    padding: 1%;
+
+}
+.p{
+    color: rgb(34, 23, 23);
 }
